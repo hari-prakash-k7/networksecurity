@@ -1,0 +1,13 @@
+prefix=D:/network/netvenv/Library
+exec_prefix=D:/network/netvenv/Library
+libdir=D:/network/netvenv/Library/lib
+sharedlibdir=D:/network/netvenv/Library/lib
+includedir=D:/network/netvenv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
